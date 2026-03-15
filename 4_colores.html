@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Interacción con Colores</title>
+
+    <link rel="stylesheet" href="assets/css/stylefinal.css" />
+  </head>
+
+  <body>
+    <h1>Ejercicio Interacción con Colores</h1>
+
+    <div class="card">
+      <h3>Instrucciones</h3>
+
+      <p><b>Parte 1</b></p>
+
+      <p>
+        Haz click en los cuadros de colores. Cada uno cambiará a color negro.
+      </p>
+
+      <p><b>Parte 2</b></p>
+
+      <p>Presiona las teclas:</p>
+
+      <ul class="lista">
+        <li>A → rosado</li>
+        <li>S → naranjo</li>
+        <li>D → celeste</li>
+      </ul>
+
+      <p>El cuadro blanco cambiará de color.</p>
+
+      <p><b>Parte 3</b></p>
+
+      <p>Presiona:</p>
+
+      <ul class="lista">
+        <li>Q → crea cuadro morado</li>
+        <li>W → crea cuadro gris</li>
+        <li>E → crea cuadro café</li>
+      </ul>
+    </div>
+
+    <div class="contenedor-colores">
+      <div id="blue" class="color blue"></div>
+      <div id="red" class="color red"></div>
+      <div id="green" class="color green"></div>
+      <div id="yellow" class="color yellow"></div>
+    </div>
+
+    <h3>Color seleccionado con teclado</h3>
+
+    <div class="contenedor-centro">
+      <div id="key"></div>
+    </div>
+
+    <h3>Nuevos cuadros creados</h3>
+
+    <div class="contenedor-nuevos">
+      <div id="nuevos"></div>
+    </div>
+
+    <script src="assets/js/teclado.js"></script>
+  </body>
+</html>
